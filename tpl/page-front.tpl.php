@@ -60,7 +60,6 @@
 <div class="twitter"><a href="https://twitter.com/#!/ParnassusBooks1"><img src="/sites/parnassus.indiebound.com/themes/parnassus/Images/twit-icon.png" alt="Twitter" /></a></div>
       </div>
       <div class="Links">
-        <?php echo theme('links', $primary_links, array('class' => 'links primary-links menu-subcategories')) ?>
         <?php if ($header): ?>
           <?php print $header ?>
         <?php endif; ?>
@@ -82,7 +81,6 @@
 
       <div class="MidColFront">
         <?php print $breadcrumb; ?>
-        <div class="Clear20"></div>
           <?php if ($tabs): print '<div id="tabs-wrapper" class="clear-block">'; endif; ?>
           <?php if ($node) { if ($node->type !='ababook' && $node->type != 'gbook') { ?>
           <?php if ($title): print '<h2'. ($tabs ? ' class="with-tabs"' : '') .'>'. $title .'</h2>'; endif; ?>
