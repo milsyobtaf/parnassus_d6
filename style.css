@@ -254,8 +254,8 @@ div.MidCol {
     width: 700px;
     padding: 20px;
 }
-div.Midcol img,
-div.MidcolFront img {
+.Midcol img,
+.MidcolFront img {
     max-width: 100%;
 }
 div.MidColFront {
