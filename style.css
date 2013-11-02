@@ -1,4 +1,12 @@
-﻿body {
+﻿.block-nice_menus{line-height:normal;z-index:10;}ul.nice-menu,ul.nice-menu ul{z-index:5;position:relative;}ul.nice-menu li{position:relative;}ul.nice-menu a{display:block;}ul.nice-menu ul,#header-region ul.nice-menu ul{position:absolute;visibility:hidden;}ul.nice-menu li.over ul{visibility:visible;}ul.nice-menu ul li{display:block;}ul.nice-menu:after{content:".";display:block;height:0;clear:both;visibility:hidden;}ul.nice-menu li:hover ul,ul.nice-menu li.menuparent li:hover ul,ul.nice-menu li.menuparent li.menuparent li:hover ul,ul.nice-menu li.menuparent li.menuparent li.menuparent li:hover ul,ul.nice-menu li.over ul,ul.nice-menu li.menuparent li.over ul,ul.nice-menu li.menuparent li.menuparent li.over ul,ul.nice-menu li.menuparent li.menuparent li.menuparent li.over ul,#header-region ul.nice-menu li:hover ul,#header-region ul.nice-menu li.menuparent li:hover ul,#header-region ul.nice-menu li.menuparent li.menuparent li:hover ul,#header-region ul.nice-menu li.over ul,#header-region ul.nice-menu li.menuparent li.over ul,#header-region ul.nice-menu li.menuparent li.menuparent li.over ul{visibility:visible;}ul.nice-menu li:hover ul ul,ul.nice-menu li:hover ul ul ul,ul.nice-menu li:hover li:hover ul ul,ul.nice-menu li:hover li:hover ul ul ul,ul.nice-menu li:hover li:hover li:hover ul ul,ul.nice-menu li:hover li:hover li:hover ul ul ul,ul.nice-menu li.over ul ul,ul.nice-menu li.over ul ul ul,ul.nice-menu li.over li.over ul ul,ul.nice-menu li.over li.over ul ul ul,ul.nice-menu li.over li.over li.over ul ul,ul.nice-menu li.over li.over li.over ul ul ul,#header-region ul.nice-menu li:hover ul ul,#header-region ul.nice-menu li:hover ul ul ul,#header-region ul.nice-menu li:hover li:hover ul ul,#header-region ul.nice-menu li:hover li:hover ul ul ul,#header-region ul.nice-menu li:hover li:hover li:hover ul ul,#header-region ul.nice-menu li:hover li:hover li:hover ul ul ul,#header-region ul.nice-menu li.over ul ul,#header-region ul.nice-menu li.over ul ul ul,#header-region ul.nice-menu li.over li.over ul ul,#header-region ul.nice-menu li.over li.over ul ul ul,#header-region ul.nice-menu li.over li.over li.over ul ul,#header-region ul.nice-menu li.over li.over li.over ul ul ul{visibility:hidden;}ul.nice-menu li.menuparent ul,#header-region ul.nice-menu li.menuparent ul{overflow:visible !important;}ul.nice-menu li.menuparent ul iframe,#header-region ul.nice-menu li.menuparent ul iframe{display:none;display:block;position:absolute;top:0;left:0;z-index:-1;filter:mask();width:20px;height:20px;}
+
+
+
+
+
+ul.nice-menu,ul.nice-menu ul{list-style:none;padding:0;margin:0;border-top:1px solid #ccc;}ul.nice-menu li{border:1px solid #ccc;border-top:0;float:left;background-color:#eee;margin:0;padding-left:0;background-image:none;}#header-region ul.nice-menu li{margin:0;padding-top:0.1em;padding-bottom:0.1em;background:#eee;}ul.nice-menu a{padding:0.3em 5px 0.3em 5px;}ul.nice-menu ul,#header-region ul.nice-menu ul{top:1.8em;left:-1px;border:0;border-top:1px solid #ccc;margin-right:0;}#header-region ul.nice-menu ul{top:1.7em;}ul.nice-menu ul li{width:12.5em;}ul.nice-menu-right,ul.nice-menu-left,ul.nice-menu-right li,ul.nice-menu-left li{width:12.5em;}ul.nice-menu-right ul{width:12.5em;left:12.5em;top:-1px;}ul.nice-menu-right ul ul{width:12.5em;left:12.5em;top:-1px;}ul.nice-menu-right li.menuparent,ul.nice-menu-right li li.menuparent{background:#eee url(/sites/all/modules/nice_menus/arrow-right.png) right center no-repeat;}ul.nice-menu-right li.menuparent:hover,ul.nice-menu-right li.over,ul.nice-menu-right li li.menuparent:hover,ul.nice-menu-right li li.over{background:#ccc url(/sites/all/modules/nice_menus/arrow-right.png) right center no-repeat;}ul.nice-menu-left li ul{width:12.5em;left:-12.65em;top:-1px;}ul.nice-menu-left li ul li ul{width:12.5em;left:-12.65em;top:-1px;}ul.nice-menu-left li.menuparent,ul.nice-menu-left li li.menuparent{background:#eee url(/sites/all/modules/nice_menus/arrow-left.png) left center no-repeat;}ul.nice-menu-left li.menuparent:hover,ul.nice-menu-left li.over,ul.nice-menu-left li li.menuparent:hover,ul.nice-menu-left li li.over{background:#ccc url(/sites/all/modules/nice_menus/arrow-left.png) left center no-repeat;}ul.nice-menu-left a,ul.nice-menu-left ul a{padding-left:14px;}ul.nice-menu-down{float:left;border:0;}ul.nice-menu-down li{border-top:1px solid #ccc;}ul.nice-menu-down li li{border-top:0;}ul.nice-menu-down ul{left:0;}ul.nice-menu-down ul li{clear:both;}ul.nice-menu-down li ul li ul,#header-region ul.nice-menu-down li ul li ul{left:12.5em;top:-1px;}ul.nice-menu-down .menuparent a{padding-right:15px;}ul.nice-menu-down li.menuparent,#header-region ul.nice-menu-down li.menuparent{background:#eee url(/sites/all/modules/nice_menus/arrow-down.png) right center no-repeat;}ul.nice-menu-down li.menuparent:hover,ul.nice-menu-down li.over,#header-region ul.nice-menu-down li.menuparent:hover,#header-region ul.nice-menu-down li.over{background:#ccc url(/sites/all/modules/nice_menus/arrow-down.png) right center no-repeat;}ul.nice-menu-down li li.menuparent,#header-region ul.nice-menu-down li li.menuparent{background:#eee url(/sites/all/modules/nice_menus/arrow-right.png) right center no-repeat;}ul.nice-menu-down li li.menuparent:hover,ul.nice-menu-down li li.over,#header-region ul.nice-menu-down li li.menuparent:hover,#header-region ul.nice-menu-down li li.over{background:#ccc url(/sites/all/modules/nice_menus/arrow-right.png) right center no-repeat;}
+
+body {
     margin: 0 auto 0 auto;
     nowhitespace: afterproperty;
     padding: 0;
@@ -146,7 +154,38 @@ div.Nav div.Links {
     height: 34px;
     margin-top: 160px;
 }
-div.Nav div.Links a {
+/* Nice Menu Styling */
+/* Primary Menu */
+/*div.block-nice_menus-2 div.Links a {
+    float: left;
+    padding-bottom: 6px;
+    font-family: Minion;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-right: 30px;
+    color: #5a471b;
+    text-decoration: none;
+}*/
+ul.nice-menu li {
+    background: #ffffff;
+}
+ul.nice-menu {
+    /* added by ADW */
+    margin-left: 85px !important;
+}
+ul.nice-menu-down li {
+    border: 0;
+}
+ul.nice-menu-down li.menuparent,
+ul.nice-menu-down li.menuparent:hover,
+ul.nice-menu-down li.menuparent:focus {
+    background: #ffffff;
+}
+ul.nice-menu a {
+    padding: inherit;
+}
+ul.nice-menu-down li a {
     float: left;
     padding-bottom: 6px;
     font-family: Minion;
@@ -157,10 +196,42 @@ div.Nav div.Links a {
     color: #5a471b;
     text-decoration: none;
 }
-div.Nav div.Links a:hover { color: #00788a }
-/* added by ADW */
-ul.primary-links li.first a { margin-left: 85px !important; }
-div.Nav div.Links a.active { border-bottom: solid 10px #dbd79e }
+div.Nav div.Links li:hover a,
+div.Nav div.Links li:focus a {
+    color: #00788a;
+    border-bottom: solid 6px #dbd79e;
+}
+div.Nav div.Links li.menuparent a {
+    padding-right: 0;
+}
+div.Nav div.Links li.menuparent:hover a,
+div.Nav div.Links li.menuparent:focus a {
+    /*border: 0;*/
+}
+div.Nav div.Links li.menuparent ul {
+    /*border: 0;*/
+    width: inherit;
+}
+div.Nav div.Links li.menuparent li {
+    /*padding-top: 6px;*/
+    width: inherit;
+    /*padding: 6px 6px 12px;*/
+}
+div.Nav div.Links li.menuparent li a {
+    margin: 0;
+    border: solid 2px #e6e6e6;
+    border-right: solid 6px #e6e6e6;
+    border-top: 0;
+    padding: 6px;
+    background: #f7f7f7;
+}
+div.Nav div.Links li.menuparent li a:hover,
+div.Nav div.Links li.menuparent li a:focus {
+    border-right: solid 6px #dbd79e;
+}
+div.Nav div.Links a.active {
+    border-bottom: solid 6px #dbd79e;
+}
 div.Nav div.Social {
     float: right;
     margin-top: 11px;
@@ -284,6 +355,9 @@ div.MidCol div.Line#ThickWideExtraPad {
     margin-top: 40px;
     margin-bottom: 40px;
     background: url(Images/two-column-horizontal-thick-divider2.png) no-repeat;
+}
+div.MidColContent-Prefix {
+  margin-bottom: 20px;
 }
 div.MidColContent { font-size: 13px }
 div.MidColContent h1 {
