@@ -1,6 +1,6 @@
-name = Parnassus
+name = "Parnassus Modified"
 description = Custom theme for Parnassus Books, Nashville.
-version = 1
+version = 1.1
 core = 6.x
 
 regions[left] = Left sidebar
