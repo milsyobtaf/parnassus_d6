@@ -1,0 +1,7 @@
+name = Parnassus
+description = Custom theme for Parnassus Books, Nashville.  
+version = 1
+core = 6.x
+engine = phptemplate
+stylesheets[all][] = style.css
+stylesheets[print][] = print.css
