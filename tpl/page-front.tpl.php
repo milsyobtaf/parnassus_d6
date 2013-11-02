@@ -60,14 +60,11 @@
 <div class="twitter"><a href="https://twitter.com/#!/ParnassusBooks1"><img src="/sites/parnassus.indiebound.com/themes/parnassus/Images/twit-icon.png" alt="Twitter" /></a></div>
       </div>
       <div class="Links">
-        <?php echo theme('links', $primary_links, array('class' => 'links primary-links menu-subcategories'))
-
-        ?>
-
+        <?php echo theme('links', $primary_links, array('class' => 'links primary-links menu-subcategories')) ?>
+        <?php if ($header): ?>
+          <?php print $header ?>
+        <?php endif; ?>
       </div>
-      <?php if ($header): ?>
-        <?php print $header ?>
-      <?php endif; ?>
       <div class="BtmLine"></div>
     </div>
 
