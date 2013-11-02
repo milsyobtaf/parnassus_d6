@@ -65,6 +65,9 @@
         ?>
 
       </div>
+      <?php if ($header): ?>
+        <?php print $header ?>
+      <?php endif; ?>
       <div class="BtmLine"></div>
     </div>
 
