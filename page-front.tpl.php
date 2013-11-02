@@ -8,7 +8,7 @@
   <title><?php print $head_title ?></title>
   <?php print $styles ?>
   <?php print $scripts ?>
-  
+
   <meta name="description" content="" />
   <meta name="keywords" content="" />
   <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js"></script>
@@ -60,16 +60,16 @@
 <div class="twitter"><a href="https://twitter.com/#!/ParnassusBooks1"><img src="/sites/parnassus.indiebound.com/themes/parnassus/Images/twit-icon.png" alt="Twitter" /></a></div>
       </div>
       <div class="Links">
-        <?php echo theme('links', $primary_links, array('class' => 'links primary-links menu-subcategories')) 
-        
+        <?php echo theme('links', $primary_links, array('class' => 'links primary-links menu-subcategories'))
+
         ?>
-        
+
       </div>
       <div class="BtmLine"></div>
     </div>
-    
+
             <!-- /header -->
-    
+
     <div class="Content">
 
       <?php if ($left): ?>
@@ -77,9 +77,9 @@
 <?php print $left ?>
       </div>
       <?php endif; ?>
-     
+
             <!--/left-column-->
-        
+
       <div class="MidColFront">
         <?php print $breadcrumb; ?>
         <div class="Clear20"></div>
@@ -92,24 +92,34 @@
           <?php if ($tabs): print '<ul class="tabs primary">'. $tabs .'</ul></div>'; endif; ?>
           <?php if ($tabs2): print '<ul class="tabs secondary">'. $tabs2 .'</ul>'; endif; ?>
           <?php if ($show_messages && $messages): print $messages; endif; ?>
-        
-        <div class="MidColContent">
-              <?php print $content ?>
-        </div>
+
+          <div class="MidColContent">
+            <?php if ($content_prefix): ?>
+              <div class="MidColContent-Prefix">
+                <?php print $content_prefix; ?>
+              </div>
+            <?php endif; ?>
+                <?php print $content; ?>
+            <?php if ($content_suffix): ?>
+              <div class="MidColContent-Suffix">
+                <?php print $content_suffix; ?>
+              </div>
+            <?php endif; ?>
+          </div>
               <?php print $feed_icons; ?>
       </div>
-            
+
             <!--/content-->
-      
+
       <?php if ($right): ?>
       <div class="RightColFront">
       <?php print $right ?>
       </div>
       <?php endif; ?>
-            
+
             <!--/right-column-->
-  
-  
+
+
   <div class="FooterFrame">
     <div class="Divider"></div>
     <div class="Footer">
@@ -124,17 +134,17 @@
         All content © 2011 by Parnassus Books unless otherwise noted.
       </p>
       <p>
-        Website powered by the American Booksellers Association and IndieCommerce. 
+        Website powered by the American Booksellers Association and IndieCommerce.
         Design by <a href="http://www.familytreedesign.net" title="Familytree">Familytree</a>.
       </p>
       <div class="Clear20"</div>
     </div>
   </div>
-  
+
             <!--/footer-->
-  
+
             <!--/layout-->
-  
+
 
   <?php print $closure ?>
   </body>
