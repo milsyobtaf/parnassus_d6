@@ -65,6 +65,9 @@
         ?>
 
       </div>
+      <?php if ($header): ?>
+        <?php print $header ?>
+      <?php endif; ?>
       <div class="BtmLine"></div>
     </div>
 
@@ -137,6 +140,9 @@
         Website powered by the American Booksellers Association and IndieCommerce.
         Design by <a href="http://www.familytreedesign.net" title="Familytree">Familytree</a>.
       </p>
+      <?php if ($footer): ?>
+        <?php print $footer ?>
+      <?php endif; ?>
       <div class="Clear20"</div>
     </div>
   </div>

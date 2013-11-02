@@ -249,14 +249,14 @@ div.LeftColContent a {
     color: #407bd2;
     text-decoration: underline;
 }
+.Midcol img,
+.MidcolFront img {
+    max-width: 100%;
+}
 div.MidCol {
     float: left;
     width: 700px;
     padding: 20px;
-}
-.Midcol img,
-.MidcolFront img {
-    max-width: 100%;
 }
 div.MidColFront {
     float: left;
@@ -560,7 +560,7 @@ div.BookResult div.Quote {
 }
 div.BookResult div.Quote span {
     color: #5a471b;
-    font-size: Arial;
+    font-family: Arial;
 }
 div.BookResult div.Social {
     float: right;
