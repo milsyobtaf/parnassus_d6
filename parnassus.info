@@ -12,5 +12,5 @@ regions[header] = Header
 regions[footer] = Footer
 
 engine = phptemplate
-stylesheets[all][] = style.css
-stylesheets[print][] = print.css
+stylesheets[all][] = css/style.css
+;stylesheets[print][] = print.css
